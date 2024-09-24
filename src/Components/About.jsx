@@ -7,22 +7,8 @@ const About = () => {
       <div className=" w-full lg:w-3/4 space-y-4">
         <h1 className=" text-4xl font-semibold text-center lg:text-start">About Us</h1>
         <p className=" text-justify lg:text-start">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
-          labore rerum tempore tenetur commodi natus quos itaque voluptatum
-          repudiandae nostrum accusantium vero voluptate aspernatur totam,
-          laboriosam aut, et quae consequatur?
-        </p>
-        <p className="text-justify lg:text-start">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora quia
-          suscipit illum, numquam incidunt nostrum dolor officia doloremque
-          cupiditate, placeat explicabo sed iure atque neque quidem ipsam!
-          Dolor, minus reiciendis.
-        </p>
-        <p className="text-justify lg:text-start">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, illum.
-          Accusantium ab expedita veniam nobis aut, in rerum repellendus!
-          Exercitationem libero recusandae corrupti accusantium reiciendis in
-          placeat illo maxime ea.
+     At HealthHub, we are dedicated to making healthcare more accessible and convenient for everyone. Our platform allows patients to seamlessly book appointments with their preferred doctors from the comfort of their homes. 
+     <p>With a user-friendly interface, real-time availability, and reminders, we aim to reduce wait times and enhance the patient experience. Whether you're looking for a routine checkup or a specialist consultation, HealthHub ensures you get the care you need, when you need it.</p>
         </p>
       </div>
       <div className=" w-full lg:w-3/4">

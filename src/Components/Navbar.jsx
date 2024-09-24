@@ -26,10 +26,10 @@ const Navbar = () => {
   return (
     <div className=" fixed w-full z-10 text-white">
       <div>
-        <div className="flex flex-row justify-between p-5 md:px-32 px-5 bg-backgroundColor shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
+        <div className="flex flex-row justify-between p-5 md:px-32 px-5 bg-blue-950">
           <div className="flex flex-row items-center cursor-pointer">
             <Link to="home" spy={true} smooth={true} duration={500}>
-              <h1 className="text-2xl font-semibold">WellnessVista.</h1>
+              <h1 className="text-2xl font-semibold">HealthHub</h1>
             </Link>
           </div>
           <nav className="hidden lg:flex flex-row items-center text-lg font-medium gap-8">
@@ -155,7 +155,7 @@ const Navbar = () => {
           </Link>
           <div className=" lg:hidden">
             <button
-              className="bg-brightColor text-white px-4 py-2 rounded-md hover:bg-hoverColor transition duration-300 ease-in-out"
+              className=" bg-orange-600 text-white px-4 py-2 rounded-md hover:bg-orange-800 transition duration-300 ease-in-out"
               onClick={openForm}
             >
               Contact Us
